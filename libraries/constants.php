@@ -2,7 +2,7 @@
 /*
  * Creation Log File Name - contstants.php Description - all constants to be used Version - 1.0 Created by - Anirudh Pandita Created on - April 15, 2013 *****************************************************************
  */
-define ( 'SITE_URL', 'http://' . $_SERVER ['SERVER_NAME'] . "/TemplateEngine" );
+define ( 'SITE_URL', 'http://' . $_SERVER ['SERVER_NAME'] . "/TemplateEngine/branches/development" );
 
 /*
  * Absolute directory path like /var/www/ulearn//branches/development/

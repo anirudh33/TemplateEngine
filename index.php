@@ -3,11 +3,12 @@
  * Creation Log File Name - index.php Description - Template master Version - 1.0 Created by - Anirudh Pandita Created on - April 15, 2013 *****************************************************************
  */
 /* Requiring all essential files */
-require_once '/var/www/TemplateEngine/libraries/constants.php';
+require_once '/var/www/TemplateEngine/branches/development/libraries/constants.php';
 require_once SITE_PATH . '/libraries/DBConnect.php';
 require_once SITE_PATH . '/controllers/Controller.php';
 require_once SITE_PATH . '/models/TemplateField.php';
 require_once SITE_PATH . '/models/Template.php';
+
 /* Method calls from views handled here */
 if (isset ( $_REQUEST ['controller'] )) {
 	
