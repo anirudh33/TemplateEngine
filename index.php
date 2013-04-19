@@ -1,6 +1,10 @@
 <?php
 /*
- * Creation Log File Name - index.php Description - Template master Version - 1.0 Created by - Anirudh Pandita Created on - April 15, 2013 *****************************************************************
+ * Creation Log File Name - index.php 
+ * Description - Template master Version - 1.0 
+ * Created by - Anirudh Pandita 
+ * Created on - April 15, 2013 
+ * *****************************************************************
  */
 /* Requiring all essential files */
 require_once '/var/www/TemplateEngine/branches/development/libraries/constants.php';

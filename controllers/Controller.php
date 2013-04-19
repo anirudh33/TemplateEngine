@@ -1,8 +1,21 @@
 <?php
+/*
+ * Creation Log File Name - Controller.php
+ * Description - Controller which handles all the flow 
+ * Version - 1.0
+ * Created by - Anirudh Pandita
+ * Created on - April 15, 2013
+ * *****************************************************************
+*/
 class Controller 
 {
 	
 	public function showView() 
+	{
+		require_once SITE_PATH. 'views/MainPage.php';
+	}
+	
+	public function showCreateTemplateView()
 	{
 		require_once SITE_PATH . '/views/EngineView.php';
 	}
